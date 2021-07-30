@@ -54,4 +54,6 @@ class MainActivity : AppCompatActivity() {
     private fun listItemClicked(subscriber: Subscriber){
         Toast.makeText(this,"${subscriber.name} clicked",Toast.LENGTH_SHORT).show()
     }
+
+    // this is the changes in new branch
 }
